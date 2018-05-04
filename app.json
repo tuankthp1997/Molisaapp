@@ -1,4 +1,16 @@
 {
   "name": "IOStest",
-  "displayName": "IOStest"
+  "displayName": "IOStest",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ittsolution.molisaapp"
+    },
+    "android": {
+      "package": "com.ittsolution.molisaapp"
+    }
 }
